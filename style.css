@@ -179,7 +179,7 @@ header {
 }
 
 /* === RESPONSIVE === */
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .thumb {
     width: 220px;
     height: 130px;
