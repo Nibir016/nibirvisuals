@@ -1330,3 +1330,19 @@ header {
     justify-content: center;
   }
 }
+/* DISCOUNT EFFECT */
+.old-price {
+  text-decoration: line-through; /* The cross-out line */
+  color: #666;                   /* Faded gray color */
+  font-size: 1.8rem;             /* Smaller than the main price */
+  font-weight: 400;              /* Slimmer font weight */
+  margin-right: 12px;            /* Gap between 75 and 50 */
+  vertical-align: middle;        /* Keeps it aligned with the new price */
+}
+
+/* Optional: Ensure the main price container handles the flex/alignment */
+.price {
+  display: flex;
+  align-items: baseline; 
+  margin-top: 10px;
+}
